@@ -1,15 +1,5 @@
 ### para obtener informacion
 GET http://localhost:8080/
 
-### para crear un pokemon
-POST http://localhost:8080/pokemon
-Content-Type: application/json
-
-{
-   "name": "nicolas",
-   "typw": "anormal",
-   "poderes": [
-      "volar",
-      "nadar"
-   ]
-}
+### para crear la calculadora
+GET http://localhost:8080/calculadora
