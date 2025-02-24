@@ -4,14 +4,25 @@
    "description": "",
    "main": "index.js",
    "scripts": {
-      "dev": "node --watch server.js"
+      "dev": "node --watch server.js",
+      "start": "node server.js"
    },
    "keywords": [],
    "author": "",
    "license": "ISC",
    "type": "module",
    "dependencies": {
+      "colors": "^1.4.0",
       "express": "4.21.2",
+      "nodemon": "^3.1.9",
       "picocolors": "^1.1.1"
-   }
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/UsopKing7/expressjs-calculadora-server.git"
+   },
+   "bugs": {
+      "url": "https://github.com/UsopKing7/expressjs-calculadora-server/issues"
+   },
+   "homepage": "https://github.com/UsopKing7/expressjs-calculadora-server#readme"
 }
