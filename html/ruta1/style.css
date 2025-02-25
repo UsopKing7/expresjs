@@ -1,4 +1,50 @@
-h1 {
-   background-color: black;
+body {
+   font-family: system-ui;
+   background: linear-gradient(135deg, #ff6f61 0%, #ff9a9e 50%, #fad0c4 100%);
    color: white;
+   height: 100vh;
+   display: grid;
+   place-items: center;
+   margin: 0;
+}
+
+h1 {
+   font-size: 80px;
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h2 {
+   transform: translateY(-200px);
+}
+
+p {
+   font-size: 50px;
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+   color: white; 
+   text-decoration: none; 
+   opacity: 0%;
+}
+
+button {
+   border-radius: 100px;
+   color: white;
+   background-color: #ff6f61;
+   width: 300px;
+   height: 50px;
+   text-decoration: none;
+   border: 0px;
+   cursor: pointer;
+   transform: translateY(-60px);
+   font-size: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   transition: background-color 0.3s ease;
+}
+
+button:hover {
+   background-color: #ff3b30; /* Cambia el color al pasar el ratón */
 }
