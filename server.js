@@ -34,6 +34,12 @@ app.get('/calculadora', (req, res) => {
 app.use('/ruta1', express.static('html/ruta1'))
 app.use('/ruta2', express.static('html/ruta2'))
 
+app.use((req, res) => {
+   console.log(pc.red('Peticion recibida...'), req.url)
+   res.status(404).send('<h1>404</h1>')
+})
+
+
 app.listen(port, () => {
    console.log(pc.green('Escuchando en el puerto =>'), pc.red('http://localhost:'+ port));
 })
