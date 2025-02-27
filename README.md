@@ -38,7 +38,7 @@ Una vez en el terminal, **escribimos** los siguientes comandos:
 
 Luego instalamos las dependencias para que funcione el servidor:  
 ```bash
-   npm install picocolors colors nodemon
+   npm install 
 ```  
 
 Luego instalamos `Express.js`:  
